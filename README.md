@@ -1,5 +1,5 @@
 # MVVM
 
-> git this file
+> 1. git this file
 
-> open the index - -|||
+> 2. open the index - -|||
