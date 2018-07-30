@@ -1,0 +1,25 @@
+<html>
+
+  <body>
+    <div id="app">
+      <div>{{message}}</div>
+      <input type="text" v-model="jsonText.text">
+      {{message}}
+    </div>
+  </body>
+
+    <script src="./src/compile.js"></script>
+    <script src="./src/mvvm.js"></script>
+    <script>
+      let app = new MVVM({
+        el: '#app',
+
+        data: {
+          message: 'I am message',
+          jsonText: {
+            text: 'I am json text'
+          }
+        }
+      })
+    </script>
+</html>
